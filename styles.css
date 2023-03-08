@@ -1,30 +1,46 @@
-
 /*FLEXBOX*/
 body {
-    display: flexbox;
-    position: relative;
-    width: 720px;
-    height: 1115px;
-    background: #f1faee;
+  display: flexbox;
+  position: relative;
+  width: 720px;
+  height: 1115px;
+  background: #f1faee;
 }
-
 
 /*Hero*/
-#hero{
-    position: absolute;
-    height: 343px;
-    background: #FFFFFF;
-    left: 0px;
-    top: 0px;
-    border: solid blue;
+#hero {
+  position: absolute;
+  height: 343px;
+  background: #ffffff;
+  left: 0px;
+  top: 0px;
+  border: solid blue;
 }
 
-
-
 /*Hobbies*/
-.hobby{
-height: 378px;
-left: 0 ;
-top: 343px;
-border: solid red;
+.hobby {
+  height: 378px;
+  left: 0;
+  top: 343px;
+  border: solid red;
+}
+
+/*Mask Group*/
+.maskGroup {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 314px;
+  top: 113px;
+}
+
+/*Eclipse*/
+.eclipse {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 314px;
+  top: 113px;
+
+  background: #c4c4c4;
 }
