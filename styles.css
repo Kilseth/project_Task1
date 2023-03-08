@@ -1,70 +1,28 @@
-#top {
-    display: grid;
-    grid-template-columns: 100px;
-    grid-row: auto;
+
+/*FLEXBOX*/
+body {
+    display: flexbox;
+    position: relative;
+    width: 720px;
+    height: 1115px;
+    background: #f1faee;
+}
+
+
+/*Hero*/
+#hero{
+    position: absolute;
+    height: 343px;
+    background: #FFFFFF;
+    left: 0px;
+    top: 0px;
 }
 
 
 
-
-/*NAVBAR*/
-ul {
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-
-/*BUTTON STYLING*/
-.button {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-}
-
-.button2:hover {
-    background-color: #008CBA; 
-    color: white;
+/*Hobbies*/
+.hobby{
+height: 378px;
+left: 0 ;
+top: 343px;
 }
