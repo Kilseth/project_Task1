@@ -25,6 +25,11 @@ body {
   border: solid red;
 }
 
+/*Hobby Images*/
+.hbyImg {
+  width: 100px;
+}
+
 /*Mask Group*/
 .maskGroup {
   position: absolute;
@@ -44,3 +49,4 @@ body {
 
   background: #c4c4c4;
 }
+/**/
