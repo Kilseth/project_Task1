@@ -35,25 +35,49 @@
   background: #c84ce3;
 }
 
+/*Karaoke*/
+#karaokeMask {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 83px;
+  top: 114px;
+}
+
 #karaokeImg {
+  width: 120px;
+  height: 100px;
 }
 
+/*Gaming*/
 #gamingImg {
+  position: absolute;
+  width: 103.97px;
+  height: 103.97px;
+  left: 314px;
+  top: 113px;
 }
 
-#animeImg {
-}
-
-#mangaImg {
-}
-
-/*Mask Group*/
-.maskGroup {
+#gamingMask {
   position: absolute;
   width: 100px;
   height: 100px;
   left: 314px;
   top: 113px;
+}
+
+/*Anime*/
+/*#animeImg {
+}*/
+
+/*Manga*/
+/*#mangaImg {
+}*/
+
+/*Mask Group*/
+.maskGroup {
+  width: 100px;
+  height: 100px;
 }
 
 /*Eclipse*/
