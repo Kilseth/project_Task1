@@ -1,11 +1,17 @@
 /*Font Family*/
 
+body {
+  display: block;
+  margin: 8px;
+  background: linear-gradient(#c493ff, #3bff3a);
+}
+
 /*FLEXBOX*/
 #homepage {
   position: relative;
   width: 720px;
   height: 1115px;
-  background: #ffffff;
+  background: linear-gradient(#aa69fa, #35f0e6);
 }
 
 /*Hero*/
