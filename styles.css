@@ -1,107 +1,81 @@
 /*Font Family*/
 
 html {
-  font-size: 16px;
-  margin: 2em;
-}
-
-body {
-  display: block;
-  margin: 8px;
-  background: linear-gradient(#c493ff, #3bff3a);
+  font-size: 14px;
+  margin: 0em;
 }
 
 /*FLEXBOX*/
-#homepage {
+/*#homepage {
   position: relative;
-  width: 17em;
+  width: 30em;
   height: 115em;
   background: linear-gradient(#aa69fa, #35f0e6);
-}
+}*
 
 /*Hero*/
 #hero {
   position: absolute;
-  width: 720em;
-  height: 343em;
+  width: 50em;
+  height: 33em;
   left: 0em;
-  top: 0em;
+  top: 1em;
   border: solid black 1em;
 
   background: no-repeat url("images/jpGarden.jpg");
+  background-size: 50em;
 }
 
 /*Hobbies*/
 .hobby {
   display: flex;
-  justify-content: space-evenly;
-  position: absolute;
-  width: 720em;
-  height: 378em;
-  left: 0em;
-  top: 343em;
+  position: relative;
+  width: 100em;
+  height: 100em;
+  left: 1em;
+  top: 40em;
+  flex-direction: column;
 
-  background: #f1faee;
+  background: transparent;
 }
 
 /*Hobby Images*/
 .hbyImg {
-  background: #c84ce3;
+  background: transparent;
+  max-width: 35em;
 }
 
 /*Karaoke*/
-#karaokeMask {
-  position: absolute;
-  width: 100em;
-  height: 100em;
-  left: 83em;
-  top: 114em;
-}
-
 #karaokeImg {
-  width: 120em;
-  height: 100em;
+  width: auto;
+  height: auto;
 }
 
 /*Gaming*/
 #gamingImg {
-  position: absolute;
-  width: 103.97em;
-  height: 103.97em;
-  left: 314em;
-  top: 113em;
-}
-
-#gamingMask {
-  position: absolute;
-  width: 100em;
-  height: 100em;
-  left: 314em;
-  top: 113em;
+  width: auto;
+  height: auto;
+  /*left: 314em;
+  top: 113em;*/
 }
 
 /*Anime*/
-/*#animeImg {
-}*/
+#animeImg {
+  width: auto;
+  height: auto;
+}
 
 /*Manga*/
-/*#mangaImg {
-}*/
+#mangaImg {
+  width: auto;
+  height: auto;
+}
 
-/*Mask Group*/
 .maskGroup {
-  width: 100em;
-  height: 100em;
+  border: #eb1a1a solid 2px;
 }
 
-/*Eclipse*/
-.eclipse {
-  position: absolute;
-  width: 100em;
-  height: 100em;
-  left: 314em;
-  top: 113em;
-
-  background: #c4c4c4;
+.imgDesc {
+  border: solid darkblue 1px;
+  margin-top: 1em;
 }
-/**/
