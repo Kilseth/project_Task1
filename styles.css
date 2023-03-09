@@ -1,5 +1,10 @@
 /*Font Family*/
 
+html {
+  font-size: 16px;
+  margin: 2em;
+}
+
 body {
   display: block;
   margin: 8px;
@@ -9,31 +14,32 @@ body {
 /*FLEXBOX*/
 #homepage {
   position: relative;
-  width: 720px;
-  height: 1115px;
+  width: 17em;
+  height: 115em;
   background: linear-gradient(#aa69fa, #35f0e6);
 }
 
 /*Hero*/
 #hero {
   position: absolute;
-  width: 720px;
-  height: 343px;
-  left: 0px;
-  top: 0px;
+  width: 720em;
+  height: 343em;
+  left: 0em;
+  top: 0em;
+  border: solid black 1em;
 
-  background: url(images/jpGarden.jpg) /*#ffffff*/;
+  background: no-repeat url("images/jpGarden.jpg");
 }
 
 /*Hobbies*/
 .hobby {
-  /*display: flex;
-  justify-content: center;*/
+  display: flex;
+  justify-content: space-evenly;
   position: absolute;
-  width: 720px;
-  height: 378px;
-  left: 0px;
-  top: 343px;
+  width: 720em;
+  height: 378em;
+  left: 0em;
+  top: 343em;
 
   background: #f1faee;
 }
@@ -46,32 +52,32 @@ body {
 /*Karaoke*/
 #karaokeMask {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 83px;
-  top: 114px;
+  width: 100em;
+  height: 100em;
+  left: 83em;
+  top: 114em;
 }
 
 #karaokeImg {
-  width: 120px;
-  height: 100px;
+  width: 120em;
+  height: 100em;
 }
 
 /*Gaming*/
 #gamingImg {
   position: absolute;
-  width: 103.97px;
-  height: 103.97px;
-  left: 314px;
-  top: 113px;
+  width: 103.97em;
+  height: 103.97em;
+  left: 314em;
+  top: 113em;
 }
 
 #gamingMask {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 314px;
-  top: 113px;
+  width: 100em;
+  height: 100em;
+  left: 314em;
+  top: 113em;
 }
 
 /*Anime*/
@@ -84,17 +90,17 @@ body {
 
 /*Mask Group*/
 .maskGroup {
-  width: 100px;
-  height: 100px;
+  width: 100em;
+  height: 100em;
 }
 
 /*Eclipse*/
 .eclipse {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 314px;
-  top: 113px;
+  width: 100em;
+  height: 100em;
+  left: 314em;
+  top: 113em;
 
   background: #c4c4c4;
 }
