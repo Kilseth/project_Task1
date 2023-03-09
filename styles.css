@@ -1,30 +1,33 @@
 /*FLEXBOX*/
-body {
-  display: flex;
+#homepage {
   position: relative;
   width: 720px;
   height: 1115px;
-  background: #f1faee;
+  background: #ffffff;
 }
 
 /*Hero*/
 #hero {
   position: absolute;
+  width: 720px;
   height: 343px;
-  background: #ffffff;
   left: 0px;
   top: 0px;
+
+  background: #ffffff;
 }
 
 /*Hobbies*/
 .hobby {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
+  position: absolute;
+  width: 720px;
   height: 378px;
-  left: 0;
+  left: 0px;
   top: 343px;
-  background: #f24;
-  border: dotted 2px #d33939;
+
+  background: #f1faee;
 }
 
 /*Hobby Images*/
@@ -33,23 +36,15 @@ body {
 }
 
 #karaokeImg {
-  max-width: 120px;
-  max-height: 120px;
 }
 
 #gamingImg {
-  max-width: 120px;
-  max-height: 120px;
 }
 
 #animeImg {
-  width: 120px;
-  height: 120px;
 }
 
 #mangaImg {
-  max-width: 120px;
-  max-height: 120px;
 }
 
 /*Mask Group*/
