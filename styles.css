@@ -14,8 +14,16 @@ html {
 }*
 
 /*Hero*/
+#heroText1 {
+  justify-content: space-between;
+}
+
+h1 {
+  display: flex;
+}
 
 #hero {
+  display: flex;
   position: absolute;
   flex: auto;
   width: 50em;
@@ -79,4 +87,9 @@ html {
 .imgDesc {
   border: solid darkblue 1px;
   margin-top: 1em;
+}
+
+/*Wrapper*/
+.textWrap {
+  flex-wrap: wrap;
 }
