@@ -22,32 +22,36 @@ body {
 /*FLEXBOX*/
 #homepage {
   display: flex;
-  justify-content: center;
 }
 
 /*Hero*/
-#heroText1 {
-  background: no-repeat #bf29ec;
-  width: auto;
-  height: 4.5em;
-  padding: 1em;
-  border-radius: 1.7em;
-}
 
 #hero {
   display: flex;
   justify-content: center;
+  position: absolute;
   width: 50em;
   height: 28em;
   left: 0em;
-  top: 1em;
+  top: 0em;
 
   background: no-repeat url("images/jpGarden.jpg");
   background-size: 26em;
 }
 
+#heroText1 {
+  background: no-repeat #bf29ec;
+  position: inherit;
+  width: auto;
+  height: 4.5em;
+  margin-top: 3.2em;
+  margin-left: -25em;
+  padding: 1em;
+  border-radius: 1.7em;
+}
+
+/*Text*/
 h1 {
-  display: flex;
   font-family: "Caveat", cursive;
   color: #fff;
 }
@@ -70,7 +74,7 @@ p {
   position: relative;
   width: 100em;
   height: 100em;
-  left: 0em;
+  left: 1.3em;
   top: 17em;
   flex-direction: column;
 
