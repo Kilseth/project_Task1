@@ -20,21 +20,30 @@ body {
 }*/
 
 /*FLEXBOX*/
-/*#homepage {
-  position: relative;
-  width: 30em;
-  height: 115em;
-  background: linear-gradient(#aa69fa, #35f0e6);
-}*
+#homepage {
+  display: flex;
+  justify-content: center;
+}
 
 /*Hero*/
 #heroText1 {
-  display: flex;
   background: no-repeat #bf29ec;
   width: auto;
   height: 4.5em;
   padding: 1em;
   border-radius: 1.7em;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  width: 50em;
+  height: 28em;
+  left: 0em;
+  top: 1em;
+
+  background: no-repeat url("images/jpGarden.jpg");
+  background-size: 26em;
 }
 
 h1 {
@@ -53,19 +62,6 @@ p {
   font-family: "Caveat", cursive;
   font-size: 16px;
   color: white;
-}
-
-#hero {
-  display: flex;
-  position: absolute;
-  flex: auto;
-  width: 50em;
-  height: 28em;
-  left: 0em;
-  top: 1em;
-
-  background: no-repeat url("images/jpGarden.jpg");
-  background-size: 26em;
 }
 
 /*Hobbies*/
